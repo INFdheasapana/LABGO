@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins bold', sans-serif;
+}
+
+.navbar {
+  background-color: #0367FD;
+  color: #D1F801;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar ul li a {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #D1F801;
+  text-decoration: underline;
+}
+
+.navbar ul li a.active {
+  color: #D1F801;
+  text-decoration: underline;
+}
+
+.container {
+    margin: 50px auto;
+    width: 400px;
+    background-color: #0367FD;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    color: white;
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 28px;
+    font-style: italic;
+    font-size: 35px;
+}
+.container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.output-box {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.container button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #D7FF00;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: #0367FD;
+}

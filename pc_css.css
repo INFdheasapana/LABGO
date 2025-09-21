@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins bold', sans-serif;
+}
+
+.navbar {
+  background-color: #0367FD;
+  color: #D1F801;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar ul li a {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #D1F801;
+  text-decoration: underline;
+}
+
+.navbar ul li a.active {
+  color: #D1F801;
+  text-decoration: underline;
+}
+
+.container {
+    padding: 30px;
+}
+
+.container h2 {
+    color: #0367FD;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 85%;
+    border-collapse: collapse;
+    background: #D1F801; 
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    color: #0367FD;
+    font-weight: medium;
+    margin-left: 80px;
+}
+
+h2{
+    font-weight: bolder;
+    margin-left: 80px;
+}
+
+thead {
+    background: #0367FD;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1.5px solid #0367FD;
+}
+
+td{
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background: #D1F801;
+}

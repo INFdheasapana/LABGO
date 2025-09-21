@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage LabGo</title>
+    <link rel="stylesheet" href="pengembalian.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="logo">LabGo</nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="peminjaman.html" >Peminjaman</a></li>
+            <li><a href="pengembalian.html" class="active">Pengembalian</a></li>
+            <li><a href="data.html">Data</a></li>
+            <li><a href="pc.html">PC</a></li>
+        </ul>
+    </header>
+    <form action="dtpengembalian.html" method="get">
+      <section class="form-container">
+    <div class="form-box" action="dtpengembalian.html" method="GET">
+      <h2>Pengembalian</h2>
+      <form id="formPengembalian">
+        <label for="nama">Nama siswa</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama siswa" required>
+
+        <label for="no-pc">No pc</label>
+        <input type="text" id="no-pc" name="no-pc" placeholder="Masukkan nomor PC" required>
+
+        <label for="kelas">No Peminjaman</label>
+        <input type="text" id="kelas" name="kelas" placeholder="Masukkan No Peminjaman" required>
+        
+        <button type="submit" class="btn-input">Input</button>
+      </form>
+    </div>
+  </section>
+  </form>
+  </body>

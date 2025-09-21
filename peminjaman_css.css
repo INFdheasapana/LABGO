@@ -1,0 +1,103 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins bold', sans-serif;
+}
+
+.navbar {
+  background-color: #0367FD;
+  color: #D1F801;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar ul li a {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #D1F801;
+  text-decoration: underline;
+}
+
+.navbar ul li a.active {
+  color: #D1F801;
+  text-decoration: underline;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.form-box {
+  background-color: #0367FD;
+  padding: 40px;
+  border-radius: 25px;
+  width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-box h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.form-box label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn-input {
+  width: 100%;
+  padding: 14px;
+  background-color: #D1F801;
+  color: #0367FD;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.btn-input:hover {
+  background-color: #D1F801;
+}
